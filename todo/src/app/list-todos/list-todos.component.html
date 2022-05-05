@@ -1,19 +1,23 @@
-<table border="1">
-    <caption>TO DO:</caption>
+<h1>Cloud Care's To-Do</h1>
+<div class="container">
+  <table class="table table-striped">
+    <caption>
+      TO DO:
+    </caption>
     <thead>
-        <tr>
-            <th>Description</th>
-            <th>Target Date</th>
-            <th>Is Completed?</th>
-            
-        </tr>
+      <tr>
+        <th>Description</th>
+        <th>Target Date</th>
+        <th>Is Completed?</th>
+      </tr>
     </thead>
     <tbody>
-        <!--Java: for (Todo todo : todos)-->
-        <tr *ngFor="let todo of todos">
-            <td>{{todo.description}}</td>
-            <td>{{todo.targetDate | date | uppercase}}</td>
-            <td>{{todo.done}}</td>           
-        </tr>
+      <!--Java: for (Todo todo : todos)-->
+      <tr *ngFor="let todo of todos">
+        <td>{{ todo.description }}</td>
+        <td>{{ todo.targetDate | date | uppercase }}</td>
+        <td>{{ todo.done }}</td>
+      </tr>
     </tbody>
-</table>
+  </table>
+</div>
