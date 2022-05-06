@@ -1,4 +1,4 @@
-package com.revature.todoservice;
+package com.revature.todoservice.helloworld;
 
 public class HelloWorldBean {
 

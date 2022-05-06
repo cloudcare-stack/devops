@@ -1,5 +1,6 @@
-package com.revature.todoservice;
+package com.revature.todoservice.helloworld;
 
+import com.revature.todoservice.helloworld.HelloWorldBean;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
