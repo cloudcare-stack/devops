@@ -34,8 +34,8 @@ export class ListTodosComponent implements OnInit {
       false,
       new Date()
     ),
-    new Todo(3, 'Learn to Be a Good Citizen', false, new Date()),
-    new Todo(4, 'Learn to Mingle with Right People', false, new Date()),
+    new Todo(3, 'Learn to Be a Best Developer', false, new Date()),
+    new Todo(4, 'Learn to Implement Spring Security', false, new Date()),
     // { id: 1, description: 'Learn to Dance' },
     // { id: 2, description: 'Learn to Integrate Spring Boot and Angular' },
     // { id: 3, description: 'Learn to Be a Good Citizen' },
