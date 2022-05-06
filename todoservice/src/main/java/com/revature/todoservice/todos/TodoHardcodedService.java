@@ -1,4 +1,4 @@
-package com.revature.todoservice;
+package com.revature.todoservice.todos;
 
 import org.springframework.stereotype.Service;
 
